@@ -1,0 +1,67 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(146, 108, 10);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+.nav{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.nav-link {
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(248, 99, 12);
+    border-bottom: 2px solid rgb(248, 99, 12);
+}
+
+.active {
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+#homer {
+    height: 200px;
+}
+
+#marge {
+    height: 200px;
+}
+
+#bart {
+    height: 200px;
+    margin-top: 0.5rem;
+}
+
+#lisa {
+    height: 200px;
+    margin-top: 0.5rem;
+}
+
+.row {
+    text-align: center;
+}
+
+.fullbox {
+    background-color: darkgoldenrod;
+}
+
+li {
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    margin: 5rem auto 0 auto;
+    color: lightslategray;
+    border-top: 1px solid grey; 
+}
