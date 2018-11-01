@@ -1,0 +1,79 @@
+/* variable */
+body {
+  background-color: bisque;
+}
+
+/* mobile-responsive @media query */
+@media (min-width: 500px) {
+  h1::before {
+    content: "Simpsons Quotes";
+  }
+}
+
+@media (max-width: 499px) {
+  h1::before {
+    content: "Quotes";
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #926c0a;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+/* nesting 1 */
+.nav {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.nav .nav-link {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.nav .nav-link:hover {
+  color: #f8630c;
+  border-bottom: 2px solid #f8630c;
+}
+
+.nav .active {
+  border-bottom: 2px solid darkgoldenrod;
+}
+
+/* nesting 2 */
+.row {
+  text-align: center;
+}
+
+.row .fullbox {
+  background-color: darkgoldenrod;
+}
+
+.row li {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+/* inheritance */
+#homer, #marge, #bart, #lisa {
+  height: 200px;
+}
+
+#bart {
+  margin-top: 0.5rem;
+}
+
+#lisa {
+  margin-top: 0.5rem;
+}
+
+table {
+  text-align: center;
+  margin: 5rem auto 0 auto;
+  color: lightslategray;
+  border-top: 1px solid grey;
+}
